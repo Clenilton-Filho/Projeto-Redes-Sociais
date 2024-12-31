@@ -1,0 +1,52 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#fundo{
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+}
+#iphone{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#iphone-img{
+    max-width: 100%;
+    height: auto;
+}
+#iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 75%;
+    width: 86.2%;
+}
+#botoes{
+    top: 30px;
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 60%;
+    width: 10%;
+    right: 0px;
+}
+.botao{
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    border-radius: 50%;
+    transition: all .5s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.697);
+}
+.botao:hover{
+    border: 1px solid white;
+    transform: translate(-25%,-25%);
+}
